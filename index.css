@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: helvetica, sans-serif;
+  color: #ffffff;
+  text-align: center;
+  background: #FC354C;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #0ABFBC, #FC354C);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #0ABFBC, #FC354C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ /* https://uigradients.com/#ManofSteel */
+}
+
+div.container {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+side_menu {
+  position: fixed;
+  width: 40px;
+  background: #fff;
+  right: 0;
+  top: 300px;
+  border-radius: 4px 0 0 4px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16), 0 2px 10px 0 rgba(0, 0, 0, .12);
+{
+side_menu.side_menu-html {
+  position: absolute;
+}
