@@ -35,8 +35,7 @@ div.side_menu a {
 }
 
 div.side_menu:hover {
-  width: 100px;
-  img:10%;
+  width: 20px;
 }
 
 div.switch-version d-none d-md-block {
@@ -59,6 +58,3 @@ div.switch-version d-none d-md-block a {
   text-decoration: none;
 }
 
-div.switch-version d-none d-md-block:hover {
-  width: 100px;
-}
