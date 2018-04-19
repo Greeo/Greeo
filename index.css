@@ -15,7 +15,7 @@ div.container {
   margin-right: 20%;
 }
 
-div.side_menu {
+.side_menu {
   position: fixed;
   margin-top: 40px;
   background-color: #ddd;
@@ -27,6 +27,9 @@ div.side_menu {
   padding-bottom: 3px;
   padding-right: 3px;
   padding-left: 3px;
+}
+.side_menu {
+  width: 50px;
 }
 
 div.switch-version d-none d-md-block {
