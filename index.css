@@ -20,8 +20,6 @@ div.side_menu {
   margin-top: 40px;
   background-color: #ddd;
   opacity: 20px;
-  font-size: 24px;
-  text-decoration: none;
   right: 0;
   top: 300px;
   border-radius: 4px 0 0 4px;
@@ -44,6 +42,6 @@ div.switch-version d-none d-md-block {
 }
   
 div.switch-version d-none d-md-block:hover {
-  width: 30px;
+  width: 40px;
 }
 
