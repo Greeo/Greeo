@@ -32,6 +32,10 @@ div.container {
   width: 50px;
 }
 
+.side_menu.a {
+  padding-bottom: 3px;
+}
+
 div.switch-version d-none d-md-block {
   position: fixed;
   margin-top: 40px;
