@@ -34,10 +34,6 @@ div.side_menu a {
   text-decoration: none;
 }
 
-div.side_menu:hover {
-  width: 70px;
-}
-
 div.switch-version d-none d-md-block {
   position: fixed;
   margin-top: 40px;
