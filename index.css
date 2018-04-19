@@ -32,10 +32,6 @@ div.container {
   width: 50px;
 }
 
-.side_menu.a {
-  padding-bottom: 3px;
-}
-
 div.switch-version d-none d-md-block {
   position: fixed;
   margin-top: 40px;
@@ -50,6 +46,10 @@ div.switch-version d-none d-md-block {
   padding-bottom: 3px;
   padding-right: 3px;
   padding-left: 3px;
+}
+
+div.switch-version d-none d-md-block a {
+  padding-bottom: 3px;
 }
   
 
