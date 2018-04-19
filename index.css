@@ -15,7 +15,7 @@ div.container {
   margin-right: 20%;
 }
 
-.side_menu {
+div.side_menu {
   position: fixed;
   width: 40px;
   background: #fff;
@@ -48,8 +48,16 @@ div.switch-version d-none d-md-block {
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16), 0 2px 10px 0 rgba(0, 0, 0, .12);
 }
   
-.switch-version d-none d-md-block a {
+div.switch-version d-none d-md-block a {
   color: #fff;
   font-size: 24px;
   text-decoration: none;
+}
+
+div.switch-version d-none d-md-block a:hover {
+  width: 100px;
+  color: #fff;
+  font-size: 24px;
+  text-decoration: none;
+  display: inline-block;
 }
