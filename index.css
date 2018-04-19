@@ -35,7 +35,7 @@ div.side_menu a {
 }
 
 div.side_menu:hover {
-  width: 20px;
+  width: 50px;
 }
 
 div.switch-version d-none d-md-block {
