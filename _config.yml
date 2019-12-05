@@ -1,1 +1,13 @@
 theme: jekyll-theme-cayman
+
+# Basic options, this won’t be seen only for making comments.
+title: New Title here
+author: What ever name
+email: ogreene53@gmail.com
+description: about the site 
+twitter_username: gut 2
+GitHub_username: greeo
+
+# Build Settings
+markdown: kramdown
+theme: minima
