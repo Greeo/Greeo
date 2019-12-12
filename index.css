@@ -35,11 +35,11 @@ div.profile {
   padding-left: 3px;
 }
 .side_menu {
-  width: 50px;
+  width: 0px;
 }
 
 .side_menu.side_menu:hover {
-  width: 50px;
+  width: 100px;
 }
 
 div.switch-version d-none d-md-block {
