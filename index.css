@@ -18,7 +18,7 @@ div.navbar-header {
   maring-top: 10px;
 }
 
-.navbar-header a.navbar-brand {
+.navbar-header a.navbar-brand h1 {
   text-decoration: none;
   font-size: 1.5em;
   color: #fff;
