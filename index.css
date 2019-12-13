@@ -14,6 +14,12 @@ div.row.head-banner {
   background-color: rgba(12, 42, 9, 0.82);
 }
 
+a.nav-brand {
+  text-decoration: none;
+  font-size: 1.5em;
+  font-color: #fff;
+}
+
 div.container {
   margin-left: 15%;
   margin-right: 15%;
