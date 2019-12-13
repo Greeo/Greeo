@@ -20,6 +20,12 @@ div.row.head-banner {
   font-color: #fff;
 }
 
+img.avatar.width-full.rounded-2 {
+  width: 230px;
+  height: 230px;
+  radius: 12px 12px 12px 12px;
+}
+
 div.container {
   margin-left: 15%;
   margin-right: 15%;
