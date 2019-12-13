@@ -14,10 +14,15 @@ div.row.head-banner {
   background-color: rgba(12, 42, 9, 0.82);
 }
 
-.navbar-header a.navbar-brand {
+div.navbar-header {
+  maring-top: 10px;
+}
+
+ a.navbar-brand {
   text-decoration: none;
   font-size: 1.5em;
-  font-color: #fff;
+  color: #fff;
+  color: rgba(255, 255, 255, 0.97);
 }
 
 img.avatar.width-full.rounded-2 {
