@@ -10,6 +10,10 @@ body {
  /* https://uigradients.com/#ManofSteel */
 }
 
+div.row.head-banner {
+  background-color: rgb(27, 96, 20);
+}
+
 div.container {
   margin-left: 15%;
   margin-right: 15%;
