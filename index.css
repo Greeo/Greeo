@@ -37,6 +37,8 @@ div.container {
 }
 
 div.profile {
+  margin-left: 3%;
+  margin-right: 3%;
   padding-top: 7%;
   padding-bottom: 7%;
 }
