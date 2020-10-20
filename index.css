@@ -22,6 +22,10 @@ div.profile {
   padding-bottom: 7%;
 }
 
+article.container {
+  padding: 2%;
+}
+
 .side_menu {
   position: fixed;
   margin-top: 40px;
