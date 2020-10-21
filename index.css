@@ -11,6 +11,7 @@ body {
 }
 div.row.head-banner {
   background-color: ddd;
+  background-color: rgba(12, 49, 9, 0.2);
 }
 div.container {
   margin-left: 15%;
