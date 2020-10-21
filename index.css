@@ -263,7 +263,8 @@ content: "\f08c";
 
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
-  [class*="col-"] {
+ /* [class*="col-"]*/
+    .profile {
     width: 100%;
     Color: 000;
     font-size: 20%;
