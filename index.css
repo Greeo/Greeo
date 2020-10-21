@@ -261,9 +261,11 @@ content: "\f431";
 content: "\f08c";
 }
 
-@media only screen and (max-width: 600px) {
-  body {
-    background-color: lightblue;
-    Font-size: 20%;
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+    Color: 000;
+    font-size: 15%;
   }
 }
