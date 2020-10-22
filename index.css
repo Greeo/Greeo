@@ -316,6 +316,13 @@ content: "\f08c";
   and (min-device-width: 375px) 
   and (max-device-width: 812px) 
   and (-webkit-min-device-pixel-ratio: 3) { 
+    
+    div.row.head-banner {
+    background-color: ddd;
+    background-color: rgba(12, 42, 9, 0.82);
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
 
 }
 
@@ -328,8 +335,10 @@ content: "\f08c";
     .profile {
     width: 100%;
     font-style: normal;
-    font-size: 20%;
+    font-size: 25%;
     center: center;
+    background-color: ddd;
+    background-color: rgba(12, 42, 9, 0.82);
     }
 }
 
@@ -339,5 +348,12 @@ content: "\f08c";
   and (max-device-width: 812px) 
   and (-webkit-min-device-pixel-ratio: 3)
   and (orientation: landscape) { 
+    
+    div.row.head-banner {
+    background-color: ddd;
+    background-color: rgba(12, 42, 9, 0.82);
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
 
 }
