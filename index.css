@@ -147,6 +147,16 @@ div.switch-version.d-none.d-md-block a img {
  }
 
  div.row.pro-sli4 {
+   background: #000;
+   background: rgba();
+   color: rgba(131, 131, 131, 0.57);
+   font-size: 12.5px;
+   font-size: 1.25em;
+   padding-top: 5%;
+   padding-bottom: 5%;
+ }
+
+ div.row.pro-sli5 {
    background: #ccc;
    background: rgba();
    color: rgba(131, 131, 131, 0.57);
@@ -156,6 +166,15 @@ div.switch-version.d-none.d-md-block a img {
    padding-bottom: 5%;
  }
 
+ div.row.pro-sli6 {
+   background: #ccc;
+   background: rgba();
+   color: rgba(131, 131, 131, 0.57);
+   font-size: 12.5px;
+   font-size: 1.25em;
+   padding-top: 5%;
+   padding-bottom: 5%;
+ }
 div.contact {
   background: #fff;
   background: rgba(255, 255, 255, 0.38);
