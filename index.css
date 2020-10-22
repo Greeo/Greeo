@@ -169,6 +169,12 @@ section.container.contact-me {
   padding-top: 2%;
   padding-bottom: 2%;
 }
+
+entry-content p#first {
+  font-weight: bold;
+  font-size: 15pt;
+}
+
 /* .container {
   width: 85%;
 } */
