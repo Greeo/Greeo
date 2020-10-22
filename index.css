@@ -136,7 +136,7 @@ div.switch-version.d-none.d-md-block a img {
  }
 
  div.row.pro-sli3 {
-   background: #eee;
+   background: #000;
    background: rgba();
    color:  #0abfbc;
    color: rgba(8, 151, 149, 0.86);
@@ -167,7 +167,7 @@ div.switch-version.d-none.d-md-block a img {
  }
 
  div.row.pro-sli6 {
-   background: #ccc;
+   background: #FFF;
    background: rgba();
    color: rgba(131, 131, 131, 0.57);
    font-size: 12.5px;
