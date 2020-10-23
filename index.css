@@ -339,6 +339,10 @@ content: "\f08c";
   and (max-device-width: 812px) 
   and (-webkit-min-device-pixel-ratio: 3)
   and (orientation: portrait) { 
+    .container {
+    margin-left: 0;
+    margin-right: 0;
+    }
     div.row.head-banner .container {
       margin-left: 0;
       margin-right: 0;
