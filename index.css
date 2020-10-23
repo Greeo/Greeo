@@ -42,10 +42,10 @@ div.flash.tag {
   padding-bottom: 3%;
 }
 
-div.container {
+/* div.container {
   margin-left: 15%;
   margin-right: 15%;
-}
+} */
 
 div.profile {
   /* margin-left: 13%;
@@ -332,19 +332,6 @@ content: "\f08c";
 
 }
 
-/* Portrait */
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3) 
-  and (orientation: portrait) { 
-    
-    div.row.head-banner .container {
-    margin-left: 0;
-    margin-right: 0;
-}
-
-}
 
 /* Portrait */
 @media only screen 
@@ -352,6 +339,10 @@ content: "\f08c";
   and (max-device-width: 812px) 
   and (-webkit-min-device-pixel-ratio: 3)
   and (orientation: portrait) { 
+    div.row.head-banner .container {
+      margin-left: 0;
+      margin-right: 0;
+    }
     .profile {
     width: 100%;
     font-style: normal;
@@ -359,6 +350,12 @@ content: "\f08c";
     center: center;
     background-color: ddd;
     background-color: rgba(12, 42, 9, 0.82);
+    }
+    article.container {
+    margin-left: 2%;
+    }
+    .navbar-header a.navbar-brand h1 {
+    font-size: 80%;
     }
 }
 
