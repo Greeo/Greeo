@@ -353,17 +353,22 @@ content: "\f08c";
 
 /* Portrait */
 @media only screen 
-  and (min-device-width: 375px) 
+  and (min-device-width: 289.81px) 
   and (max-device-width: 812px) 
   and (-webkit-min-device-pixel-ratio: 3)
   and (orientation: portrait) { 
-    .profile {
+    div.profile {
     width: 100%;
     font-style: normal;
     font-size: 25%;
     center: center;
     background-color: ddd;
     background-color: rgba(12, 42, 9, 0.82);
+    margin: 0;
+    }
+    
+    div.container {
+      margin: 0;
     }
 }
 
