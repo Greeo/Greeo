@@ -354,7 +354,7 @@ content: "\f08c";
 /* Portrait Iphone 6/7/8 Plus */
 @media only screen 
   and (min-device-width: 289.81px) 
-  and (max-device-width: 812px) 
+  and (max-device-width: 375px) 
   and (-webkit-min-device-pixel-ratio: 3)
   and (orientation: portrait) { 
     div.profile {
@@ -369,6 +369,11 @@ content: "\f08c";
     
     div.container {
       margin: 0;
+    }
+    
+    .navbar-header a.navbar-brand h1 img {
+      width: 50%;
+      font-size: 0.75em;
     }
 }
 
