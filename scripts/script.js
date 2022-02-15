@@ -23,3 +23,4 @@ tl.reverse();
 ham.addEventListener('click', () => {
 	tl.reversed(!tl.reversed());
 });
+
