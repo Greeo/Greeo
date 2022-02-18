@@ -228,6 +228,7 @@ div.slide.header.s_plaine#sli0 {
   padding-bottom: 5%;
   color: #979090;
  }
+ 
 
  div.row.pro-sli3 {
    background: rgb(156, 154, 154);
@@ -244,6 +245,10 @@ div.slide.header.s_plaine#sli0 {
  a.image-link.shadow {
    margin-top: -50%;
    
+ }
+
+ display3 iframe {
+  margin-left: -12%;
  }
 
  div.row.pro-sli4 {
@@ -1314,6 +1319,14 @@ div.tabPanel4.slide #slide4 {
   position: relative;
   height: 1818px;
   overflow: hiden; 
+}
+
+article#tabPanel3 {
+ margin-top: 20%;
+}
+
+article#tabPanel3 div.apps {
+  margin-left: 07%;
 }
 
 div#introduction{
