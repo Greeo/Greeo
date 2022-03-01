@@ -40,8 +40,9 @@ p.card-text.pro-title.text-muted {
 }
 
 div.row.head-banner {
-  /* background-color: ddd; */
+  /* background-color: ddd; 
   background-color: rgba(251, 253, 251, 0.82);
+  */
   margin-top: 0%;
 }
 
@@ -49,8 +50,20 @@ div.row.head-banner.container {
   margin: 0;
 }
 
+
+div.animated-nav .spacing.w-col.w-col-4.w-col-medium-4 {
+  display: flex;
+  float: left;
+  padding-right: 0px;
+}
+
+div.software-icon {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 div.animated-nav {
-  width: 14.5%;
+  width: 35%;
   float: right;
   clear: both;
   height: 1.5%;
@@ -168,8 +181,6 @@ ul.drop_down nav li.col1 {
 }
 
 div.switch-version.d-none.d-md-block {
-  /* position: fixed;
-  margin-top: 40px; */
   background-color: #fff;
   opacity: 20px;
   font-size: 24px;
@@ -178,7 +189,7 @@ div.switch-version.d-none.d-md-block {
   top: 300px;
   border-radius: 4px 0 0 4px;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16), 0 2px 10px 0 rgba(0, 0, 0, .12);
-  padding-top: 3px;
+  padding-top: 40px;
   padding-bottom: 3px;
   padding-right: 3px;
   padding-left: 3px;
@@ -1333,6 +1344,10 @@ div#introduction{
   position: relative;
 }
 
+div#introduction.container.design .display5 {
+  padding-top: 15%;
+}
+
 div#display4 {
   position: relative;
 }
@@ -1443,6 +1458,10 @@ body {
 	box-sizing: border-box;
 }
 
+div.spacing.w-col.w.col-4.w-col-medium-4 {
+  display: inline-flex;
+}
+
 h2 {
 	font-size: 7.5vw;
 	font-weight: 600;
@@ -1475,7 +1494,7 @@ nav.navbar.navbar-full {
 nav {
 	position: relative;
 	height: 14.5rem;
-	background-color: linen;
+	/* background-color: linen; */
 	z-index: 10;
 
 	.wrapper {
