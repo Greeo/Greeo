@@ -10,7 +10,7 @@ body {
  /* https://uigradients.com/#ManofSteel */
 }
 
-iframe#remktfrm {
+#remktfrm {
   display: block;
   width: 100%;
 }
@@ -333,7 +333,12 @@ article#tabPanel7 div#apps {
 article#tabPanel13 {
   position: absolute;
 }
-div#introduction.container.apps,
+
+#introduction {
+  position: relative;
+}
+
+div.container.apps,
 div.display3,
 div.hero,
 div.hero-content,
@@ -380,12 +385,21 @@ div.item-image-link {
   clear: both;
 } */
 
-article#tabPanel4 div.hero {
+#tabPanel4 {
+  padding: 0;
+}
+article div.hero {
   /* padding-left: 5%;
   padding-right: 5%; */
 }
 
-article#tabPanel4 div.hero article.section {
+#tabPanel4 {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+}
+
+ div.hero article.section {
   padding-left: 5%;
   padding-right: 5%;
 }
@@ -426,7 +440,12 @@ div.app.display {
   float: left;  
 }
 
-entry-content p#first {
+p#first{
+  font-weight: bold;
+  font-size: 15pt;
+}
+
+.entry-content {
   font-weight: bold;
   font-size: 15pt;
 }
