@@ -43,10 +43,13 @@ div.row.head-banner {
   /* background-color: ddd; 
   background-color: rgba(251, 253, 251, 0.82);
   */
+  display: grid;
+  grid-template-columns: 3fr;
   margin-top: 0%;
 }
 
 div.row.head-banner.container {
+  display: grid;
   margin: 0;
 }
 
@@ -69,11 +72,36 @@ div.animated-nav {
   height: 1.5%;
 }
 
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+ /* [class*="col-"]*/
+  .u-photo {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  /* For mobile phones: */
+ /* [class*="col-"]*/
+  .u-photo {
+    width: 50%;
+  }
+}
+
+.u-photo {
+  opacity: 75%;
+}
+.u-photo:hover {
+  opacity: 95%;
+}
+
 article.profile-menu {
+  color: rgb(83, 82, 82);
+  
   float: left;
   clear: both;
   margin-right: -10%;
-  margin-top: -12%;
+  margin-top: -11.5%;
 }
 
 div.navbar-header {
@@ -218,6 +246,14 @@ div.slide.header.s_plaine#sli0 {
   font-size: x-small;
 }
 
+.pro.pacion {
+  background-color: #f5f5f5;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  color: -webkit-linear-gradient(to right, #0ABFBC, #FC354C);  /* Chrome 10-25, Safari 5.1-6 */
+  color: linear-gradient(to right, #0ABFBC, #FC354C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
  div.row.pro-sli1 {
    background: #555;
    background: rgba(0, 0, 0, 0.38);
@@ -253,6 +289,12 @@ div.slide.header.s_plaine#sli0 {
    padding-bottom: 5%;
  }
 
+ iframe.figma.canvas {
+   border: 1px solid rgba(0, 0, 0, 0.1);
+   width: 1728px; 
+   height: 1117px; 
+ }
+
  a.image-link.shadow {
    margin-top: -50%;
    
@@ -270,6 +312,10 @@ div.slide.header.s_plaine#sli0 {
    font-size: 1.25em;
    padding-top: 5%;
    padding-bottom: 5%;
+ }
+
+ .article-header {
+   
  }
 
  div.row.pro-sli5 {
@@ -550,6 +596,11 @@ content: "\f08c";
     Color: 000;
     font-size: 20%;
   }
+  iframe.figma.canvas {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    width: 1728px; 
+    height: 1117px; 
+  }
 }
 
 @media only screen and (max-width: 600px) {
@@ -560,6 +611,12 @@ content: "\f08c";
     font-style: normal;
     font-size: 20%;
     center: center;
+  }
+  iframe.figma.canvas {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    width: 1728px; 
+    height: 1117px; 
+    position: relative;
   }
 }
 
@@ -604,6 +661,12 @@ content: "\f08c";
     margin-top: 3%;
     margin-bottom: 3%;
 }
+ iframe.figma.canvas {
+   border: 1px solid rgba(0, 0, 0, 0.1);
+   width: 1728px; 
+   height: 1117px; 
+   position: relative;
+ }
 
 }
 
