@@ -66,7 +66,7 @@ div.software-icon {
 }
 
 div.animated-nav {
-  width: 35%;
+  position: relative;
   float: right;
   clear: both;
   height: 1.5%;
@@ -90,23 +90,40 @@ div.animated-nav {
 
 .u-photo {
   opacity: 75%;
+  position: absolute;
 }
 .u-photo:hover {
   opacity: 95%;
 }
 
-article.profile-menu {
+
+div.profile-menu {
+  position: absolute;
   color: rgb(83, 82, 82);
-  
+  margin-top: 01.5%;
+  float: left;
+  clear: both;
+}
+
+
+
+/* article.profile-menu {
+  color: rgb(83, 82, 82);
   float: left;
   clear: both;
   margin-right: -10%;
   margin-top: -11.5%;
+} */
+
+
+@media only screen 
+ and (max-width: 1210px) 
+ and (min-width: 845px) {
+  div.profile-menu {
+    margin-top: 03.3%;
+  }
 }
 
-div.navbar-header {
-  maring-top: 10px;
-}
 
 .navbar-header a.navbar-brand h1 {
   text-decoration: none;
@@ -291,13 +308,19 @@ div.slide.header.s_plaine#sli0 {
 
  iframe.figma.canvas {
    border: 1px solid rgba(0, 0, 0, 0.1);
-   width: 1728px; 
-   height: 1117px; 
+   /* width: 1728px; 
+   height: 1117px;  */
+   position: fixed;
+   -ms-flex-align: center;
  }
 
  a.image-link.shadow {
    margin-top: -50%;
    
+ }
+
+ div.showcase_container {
+  width: fit-content;
  }
 
  display3 iframe {
@@ -588,6 +611,7 @@ content: "\f431";
 content: "\f08c";
 }
 
+
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
  /* [class*="col-"]*/
@@ -614,8 +638,10 @@ content: "\f08c";
   }
   iframe.figma.canvas {
     border: 1px solid rgba(0, 0, 0, 0.1);
-    width: 1728px; 
-    height: 1117px; 
+    width: 864px;
+    /* width: 1728px;  */
+    height: 558.5px; 
+    /* height: 1117px;  */
     position: relative;
   }
 }
@@ -638,9 +664,9 @@ content: "\f08c";
 }
 
 @media only screen and (max-width: 768px) {
-  .pro-sli.container {
+  div.display3 div.section-content {
      width: 100%;
-     font-size: 25%;
+     font-size: 50%;
      center: center;
   }
   row .pro-sli1 .pro-sli2 .pro-sli3 { width: 100%; padding: 0; font-size: 20%;}
@@ -667,6 +693,29 @@ content: "\f08c";
    height: 1117px; 
    position: relative;
  }
+ div.animated-nav {
+  position: absolute;
+  margin-top: -90px;
+  float: right;
+  clear: both;
+}
+
+}
+/* Best for my setting Portrait Iphone 11 Plus */
+@media only screen and (max-width: 500px) {
+    div.row.pro-sli3  {
+      font-size: 25px;
+      width: 100%;
+      margin: 0 auto;
+  }
+    div.d-flex.justify-content-between.align-items-center p.message h1 {
+      font-size: 50px;
+    }
+    
+    section.features ul li {
+      width: 100%;
+     
+    }
 
 }
 
@@ -695,11 +744,18 @@ content: "\f08c";
       width: 50%;
       font-size: 0.75em;
     }
+    div.d-flex.justify-content-between.align-items-center p.message h1 {
+      font-size: 50px;
+    }
+    artic#tabPanel13 div.apps,
+    div#introduction div.apps {
+      margin: 0 auto;
+    }
 }
 
 /* Portrait Iphone 11 */
 @media only screen 
-  and (min-device-width: 375px) 
+  and (min-device-width: 500px) 
   and (max-device-width: 812px) 
   and (-webkit-min-device-pixel-ratio: 3)
   and (orientation: portrait) { 
@@ -730,8 +786,7 @@ content: "\f08c";
     background-color: rgba(12, 42, 9, 0.82);
     margin-top: 3%;
     margin-bottom: 3%;
-}
-
+    }
 
 }
 
@@ -1575,7 +1630,7 @@ nav.navbar.navbar-full {
 
 nav {
 	position: relative;
-	height: 14.5rem;
+	height: 11.5rem;
 	/* background-color: linen; */
 	z-index: 10;
 
