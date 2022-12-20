@@ -727,6 +727,45 @@ section.features ul li {
     div.container {
       margin: 0 auto;
     }
+
+    img.avatar.width-full.rounded-2 {
+      width: 60%;
+      height: 60%;
+    }
+
+    div.animated-nav {
+      width: max-content;
+    }
+    div.animated-nav .spacing.w-col.w-col-4.w-col-medium-4 {
+      margin-left: -10px;
+      margin-right: -10px;
+    }
+
+    article.profile-intro {
+      margin-top: -20%;
+      margin-bottom: 20%;
+    }
+
+    div.body-4 {
+     font-size: 11px;
+    }
+
+    .u-photo {
+      margin-top: 27%;
+      margin-bottom: 50px;
+    }
+     
+    div.profile .row {
+      font-size: 09px;
+      display: flexbox;
+    }
+
+    div.profile-menu {
+      position: absolute;
+      margin-top: 49%;
+      margin-left: 68px;
+      line-height: 1.5px;
+    }
  
     article#tabPanel3 h1 {
       font-size: 140%;
