@@ -307,11 +307,11 @@ div.slide.header.s_plaine#sli0 {
  }
 
  iframe.figma.canvas {
-   border: 1px solid rgba(0, 0, 0, 0.1);
-   /* width: 1728px; 
-   height: 1117px;  */
+   /* border: 1px solid rgba(0, 0, 0, 0.1);
+   width: 1728px; 
+   height: 1117px;  
    position: fixed;
-   -ms-flex-align: center;
+   -ms-flex-align: center; */
  }
 
  a.image-link.shadow {
@@ -389,9 +389,9 @@ article#tabPanel7 div#apps {
   height: 100%;
   overflow: scroll;
  
-} */
+}
 
-/* div.row.pro-sli3 {
+div.row.pro-sli3 {
   height: 1838px;
   overflow: scroll;
   width: 100%;
@@ -466,6 +466,22 @@ article div.hero {
   padding-left: 5%;
   padding-right: 5%;
 }
+
+img.inview {
+  width: 33.3%;
+  display: flex;
+  float: left;
+  height: 45%;
+  opacity: 85%;
+}
+
+p.ohm.brand .brand.design img {
+  width: 100%;
+}
+
+section.floatfig-imgs.inview {
+  width: 100%;
+  display: flex;
 }
 
  div.hero article.section {
@@ -700,21 +716,62 @@ content: "\f08c";
   clear: both;
 }
 
+section.features ul li {
+  width: 100%;
+ 
+}
+
 }
 /* Best for my setting Portrait Iphone 11 Plus */
 @media only screen and (max-width: 500px) {
+    div.container {
+      margin: 0 auto;
+    }
+ 
+    article#tabPanel3 h1 {
+      font-size: 140%;
+      font-weight: 900;
+    }
+ 
+    article#tabPanel5 h1 {
+      font-size: 50px;
+      font-weight: 900;
+    }
+
+    article#tabPanel7 h1 {
+      font-size: 60px;
+      width: 100%;
+      margin: 0 auto;
+    }
+
     div.row.pro-sli3  {
       font-size: 25px;
       width: 100%;
       margin: 0 auto;
-  }
+    }
     div.d-flex.justify-content-between.align-items-center p.message h1 {
       font-size: 50px;
     }
     
     section.features ul li {
       width: 100%;
-     
+    }
+    
+    div.floatfig-imgs.inview,
+    div.culture.house.slids {
+      margin-left: 05%;
+      margin-right: 05%;
+    }
+
+    div.clide.case.1,
+    div.clide.case.2,
+    div.clide.case.3,
+    div.clide.case.4,
+    div.clide.case.5,
+    div.clide.case.6 {
+      width: 100%;
+      display: flex;
+      
     }
 
 }
@@ -755,7 +812,7 @@ content: "\f08c";
 
 /* Portrait Iphone 11 */
 @media only screen 
-  and (min-device-width: 500px) 
+  and (min-device-width: 375px) 
   and (max-device-width: 812px) 
   and (-webkit-min-device-pixel-ratio: 3)
   and (orientation: portrait) { 
@@ -834,7 +891,7 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
 }
 
 
-media screen and (min-width: 740px)
+@media screen and (min-width: 740px)
 .home-welcome .features ul li {
     height: 200px;
     width: 25%;
