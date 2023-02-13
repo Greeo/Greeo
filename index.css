@@ -635,6 +635,10 @@ content: "\f08c";
     width: 100%;
     Color: 000;
     font-size: 20%;
+
+    .container {
+      margin: 0;
+    }
   }
   iframe.figma.canvas {
     border: 1px solid rgba(0, 0, 0, 0.1);
@@ -659,6 +663,9 @@ content: "\f08c";
     height: 558.5px; 
     /* height: 1117px;  */
     position: relative;
+  }
+  .container {
+    margin: 0;
   }
 }
 
@@ -702,26 +709,30 @@ content: "\f08c";
     background-color: rgba(12, 42, 9, 0.82);
     margin-top: 3%;
     margin-bottom: 3%;
-}
- iframe.figma.canvas {
-   border: 1px solid rgba(0, 0, 0, 0.1);
-   width: 1728px; 
-   height: 1117px; 
-   position: relative;
- }
- div.animated-nav {
-  position: absolute;
-  margin-top: -90px;
-  float: right;
-  clear: both;
+    }
+    iframe.figma.canvas {
+      border: 1px solid rgba(0, 0, 0, 0.1);
+      width: 1728px; 
+      height: 1117px; 
+      position: relative;
+    }
+    div.animated-nav {
+      position: absolute;
+      margin-top: -90px;
+      float: right;
+      clear: both;
+    }
+
+    section.features ul li {
+      width: 100%;
+    
+    }
+    .container {
+      margin: 0;
+    }
+
 }
 
-section.features ul li {
-  width: 100%;
- 
-}
-
-}
 /* Best for my setting Portrait Iphone 11 Plus */
 @media only screen and (max-width: 500px) {
     div.container {
@@ -746,6 +757,11 @@ section.features ul li {
       margin-bottom: 20%;
     }
 
+    nav.navbar.navbar-full {
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+
     div.body-4 {
      font-size: 11px;
     }
@@ -765,6 +781,9 @@ section.features ul li {
       margin-top: 49%;
       margin-left: 68px;
       line-height: 1.5px;
+      .container {
+        margin: 0;
+      }
     }
  
     article#tabPanel3 h1 {
@@ -810,7 +829,27 @@ section.features ul li {
     div.clide.case.6 {
       width: 100%;
       display: flex;
-      
+    }
+
+    div#introduction.container.design .display5 {
+      width: 95%;
+    }
+
+    
+    div#introduction div.heading {
+      font-weight: bolder;
+    }
+     
+    
+    div#slide5.tabPanel5.slide div.section-content {
+      width: 95%;
+      padding 
+    }
+
+    div#introduction.container.design .display5,
+    div#introduction div.section-content {
+      width: 95%;
+      padding-left: 5%;
     }
 
 }
@@ -832,7 +871,7 @@ section.features ul li {
     margin: 0;
     }
     
-    div.container {
+    .container {
       margin: 0;
     }
     
@@ -865,7 +904,7 @@ section.features ul li {
     margin: 0;
     }
     
-    div.container {
+    .container {
       margin: 0;
     }
 }
@@ -931,10 +970,11 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
 
 
 @media screen and (min-width: 740px)
-.home-welcome .features ul li {
-    height: 200px;
-    width: 25%;
-}
+  .home-welcome .features ul li {
+      height: 200px;
+      width: 25%;
+  }
+
 .home-welcome .features ul li {
     align-items: center;
     border-bottom: 1px solid #eee;
@@ -990,7 +1030,7 @@ li {
   line-height: 1;
   font-weight: 400;
   font-style: normal;
-  speak: never;
+  /* speak: never; */
   text-decoration: inherit;
   text-transform: none;
   text-rendering: auto;
@@ -1185,10 +1225,12 @@ user agent stylesheet
 section {
   display: block;
 }
-@media screen and (min-width: 737px)
-.home-welcome {
-  font-size: 18px;
-}
+
+@media only screen and (min-width: 737px)
+  .home-welcome {
+    font-size: 18px;
+  }
+  
 .home-welcome {
   background: #fff;
   border-bottom: 1px solid #dfdfdf;
@@ -1230,11 +1272,81 @@ body, button, input, select, textarea {
   z-index: -1;
 }
 
+.row.container {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-rows: 1fr;
+}
+
+.quater1, .quater2, .quater4 {
+  height: 150px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.quater3 {
+  grid-column: span 2;
+  grid-row: 1/3;
+  justify-self: center;
+  height: 150px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.zone {
+  cursor:pointer;
+  /* display:block; */
+  text-align: center;
+  /* font-size:10em; */
+  border-radius:4px;
+  /* border:1px solid #bbb; */
+  transition: all 0.3s linear;
+}
+
+article.showcase div.sub-header {
+  font-family: Source Sans Pro;
+  text-align: left;
+  font-size: larger;
+  margin-left: 10%;
+}
+
+.head-banner span.line {
+  color: #1d8bca;
+  font-family: source sans pro;
+  font-weight: bold;
+
+} 
+
+.app_display {
+  width: 100%;
+  background-image: url(assets/img/RG/People-of-Different-Ages-1.jpeg);
+}
+
+p.textBox {
+  background-color: #FFF;
+  font-size: 1.2em;
+  font-weight: 400;
+  font-family: Source Sans Pro;
+  text-align: left;
+  margin-top: 06%;
+  padding-left: 10px;
+}
+
 .hero h1 .line {
   /* display: block; */
   height: calc(var(--h1)*1.2);
   overflow: hidden;
 }
+
+.ucenter {
+  background-color: green;
+  color: #fff;
+  font-size: 2.5em;
+}
+
 *, :after, :before {
   box-sizing: inherit;
   margin: 0;
@@ -1725,47 +1837,47 @@ nav.navbar.navbar-full {
 }
 
 nav {
-	position: relative;
-	height: 11.5rem;
-	/* background-color: linen; */
-	z-index: 10;
+    position: relative;
+    height: 11.5rem;
+    /* background-color: linen; */
+    z-index: 10;
 
-	.wrapper {
-		height: 100%;
-		display: flex;
-		align-items: center;
-	}
+    .wrapper {
+      height: 100%;
+      display: flex;
+      align-items: center;
+    }
 
-	.ham {
-		margin-left: auto;
+    .ham {
+      margin-left: auto;
 
-		span {
-			font-size: 2rem;
-			cursor: pointer;
-		}
-	}
+        span {
+          font-size: 2rem;
+          cursor: pointer;
+        }
+    }
 
-	ul {
-		position: absolute;
-		width: 100%;
-		top: 100%;
-		left: 0;
-		z-index: -1;
+    ul {
+      position: absolute;
+      width: 100%;
+      top: 100%;
+      left: 0;
+      z-index: -1;
 
-		background-color: bisque;
+      background-color: bisque;
 
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
 
-		// for animation
-		opacity: 0;
-		height: 0;
+      /* for animation */
+      opacity: 0;
+      height: 0;
 
-		li {
-			margin: 1rem 0;
-			font-size: 3rem;
-		}
-	}
+        li {
+          margin: 1rem 0;
+          font-size: 3rem;
+        }
+    }
 }
